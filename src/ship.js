@@ -10,8 +10,11 @@ module.exports = (length) => {
       hit++;
   }
 
+  const getHit = () => hit;
+
   return {
       hitShip,
       isSunk,
+      getHit,
   }
 };

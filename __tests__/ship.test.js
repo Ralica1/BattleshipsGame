@@ -9,7 +9,7 @@ describe("Ship", () => {
 
   test("should increase number of hits when hitShip() is called", () => {
     ship.hitShip();
-    expect(ship.hitShip).toBe(1);
+    expect(ship.getHit()).toBe(1);
   });
 
   test("should mark ship as sunk when hit enough times", () => {
