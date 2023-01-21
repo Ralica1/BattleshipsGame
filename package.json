@@ -1,0 +1,25 @@
+{
+  "name": "battleshipsgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ralica1/BattleshipsGame.git"
+  },
+  "keywords": [],
+  "author": "Ralica1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ralica1/BattleshipsGame/issues"
+  },
+  "homepage": "https://github.com/Ralica1/BattleshipsGame#readme",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
