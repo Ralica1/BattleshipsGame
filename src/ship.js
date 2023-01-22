@@ -12,9 +12,13 @@ module.exports = (length) => {
 
   const getHit = () => hit;
 
+  const isHit = (x, y) => {
+    return x === this.x && y === this.y;
+}
   return {
       hitShip,
       isSunk,
       getHit,
+      isHit,
   }
 };
